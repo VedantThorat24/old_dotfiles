@@ -1,0 +1,149 @@
+* {
+    font-family: "Rubik";
+    font-size: 13px;
+
+    transition: 200ms;
+}
+
+/* CONTROL CENTER */
+
+.control-center {
+    background: rgba(7, 20, 38, 0.88);
+
+    border-radius: 20px;
+    border: 2px solid #29435c;
+
+    color: #e8eef2;
+
+    margin: 12px;
+    padding: 14px;
+}
+
+/* NOTIFICATIONS */
+
+.notification {
+    background: rgba(13, 27, 42, 0.95);
+
+    border-radius: 16px;
+    border: 1px solid #355070;
+
+    padding: 12px;
+    margin: 8px 0px;
+}
+
+.notification-content {
+    background: transparent;
+    padding: 6px;
+}
+
+/* TITLE */
+
+.summary {
+    color: #9fd3ff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* BODY */
+
+.body {
+    color: #c7d6e0;
+}
+
+/* TIME */
+
+.time {
+    color: #8fa1b3;
+    font-size: 11px;
+}
+
+/* CLOSE BUTTON */
+
+.close-button {
+    background: #1b2d42;
+
+    color: #e8eef2;
+
+    border-radius: 100%;
+
+    margin: 6px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.close-button:hover {
+    background: #c06c84;
+    color: #071426;
+}
+
+/* CONTROL CENTER BUTTONS */
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+    background: #132235;
+
+    border-radius: 14px;
+
+    color: #c7d6e0;
+
+    margin: 6px;
+    padding: 10px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+    background: #6c9bd2;
+    color: #071426;
+}
+
+/* VOLUME / BRIGHTNESS */
+
+trough {
+    background: #1b2d42;
+
+    border-radius: 999px;
+
+    min-height: 10px;
+}
+
+highlight {
+    background: #7dcfff;
+
+    border-radius: 999px;
+}
+
+/* DND BUTTON */
+
+.widget-dnd {
+    background: #132235;
+
+    border-radius: 14px;
+
+    padding: 10px;
+    margin: 8px 0px;
+}
+
+.widget-dnd switch {
+    background: #355070;
+
+    border-radius: 999px;
+}
+
+.widget-dnd switch:checked {
+    background: #5f8f7b;
+}
+
+/* MUSIC */
+
+.widget-mpris {
+    background: #132235;
+
+    border-radius: 16px;
+
+    padding: 12px;
+    margin: 10px 0px;
+}
+
+/* CONTROL CENTER SCROLL */
+
+.control-center scrollbar {
+    opacity: 0;
+}

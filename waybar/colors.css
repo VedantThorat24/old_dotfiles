@@ -1,0 +1,30 @@
+@define-color background #071426;
+@define-color background-alt #0d1b2a;
+
+@define-color surface #132235;
+@define-color surface-alt #1b2d42;
+
+@define-color foreground #e8eef2;
+@define-color foreground-alt #c7d6e0;
+@define-color muted #8fa1b3;
+
+@define-color red #c06c84;
+@define-color red-dark #9b5268;
+
+@define-color orange #d8a46b;
+@define-color amber #e2c275;
+
+@define-color blue #6c9bd2;
+@define-color blue-light #9fd3ff;
+@define-color slate #355070;
+
+@define-color grey #5d748a;
+@define-color grey-light #aebdca;
+@define-color grey-dark #233548;
+
+@define-color green #5f8f7b;
+
+@define-color border #29435c;
+@define-color border-light #42617d;
+
+@define-color shadow rgba(0,0,0,0.45);

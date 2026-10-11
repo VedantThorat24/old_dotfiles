@@ -1,0 +1,142 @@
+* {
+    font: "Rubik 11";
+
+    background:     #071426;
+    background-alt: #0d1b2a;
+
+    foreground:     #e8eef2;
+    foreground-alt: #c7d6e0;
+
+    selected:       #6c9bd2;
+    active:         #5f8f7b;
+    urgent:         #c06c84;
+
+    border:         #29435c;
+
+    transparent:    #00000000;
+}
+
+/* MAIN WINDOW */
+
+window {
+    transparency: "screenshot";
+    location: center;
+    anchor: center;
+
+    width: 700px;
+
+    border: 2px;
+    border-color: @border;
+    border-radius: 18px;
+
+    background-color: #071426ee;
+}
+
+/* MAIN BOX */
+
+mainbox {
+    background-color: transparent;
+
+    spacing: 12px;
+    padding: 20px;
+}
+
+/* INPUT BAR */
+
+inputbar {
+    background-color: @background-alt;
+
+    border-radius: 14px;
+
+    padding: 12px;
+    spacing: 10px;
+}
+
+/* PROMPT */
+
+prompt {
+    text-color: @selected;
+    background-color: transparent;
+}
+
+/* ENTRY */
+
+entry {
+    placeholder: "Search...";
+    placeholder-color: @foreground-alt;
+
+    text-color: @foreground;
+
+    background-color: transparent;
+}
+
+/* MESSAGE */
+
+message {
+    background-color: transparent;
+}
+
+/* LIST VIEW */
+
+listview {
+    background-color: transparent;
+
+    columns: 1;
+    lines: 8;
+
+    spacing: 8px;
+    scrollbar: false;
+}
+
+/* ELEMENT */
+
+element {
+    background-color: @background-alt;
+
+    border-radius: 12px;
+
+    padding: 12px;
+}
+
+/* SELECTED ELEMENT */
+
+element selected {
+    background-color: @selected;
+    text-color: @background;
+}
+
+/* ELEMENT TEXT */
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
+
+/* ICONS */
+
+element-icon {
+    background-color: transparent;
+
+    size: 28px;
+}
+
+/* MODE SWITCHER */
+
+mode-switcher {
+    spacing: 10px;
+}
+
+button {
+    background-color: @background-alt;
+
+    padding: 10px 16px;
+
+    border-radius: 12px;
+
+    text-color: @foreground-alt;
+}
+
+button selected {
+    background-color: @selected;
+    text-color: @background;
+}
